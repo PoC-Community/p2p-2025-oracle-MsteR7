@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Script} from "forge-std/Script.sol";
-import {Oracle} from "../src/Oracle.sol";
+import {Oracle} from "./src/Oracle.sol";
 
 contract OracleScript is Script {
     Oracle public oracle;
